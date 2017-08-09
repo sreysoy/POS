@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorNackIconGreenLight">#222222</color>
+    <color name="colorNackIconBlueDark">#000033</color>
+    <color name="colorUser">#378C9F</color>
+    <color name="colorNackIconGray">#008b89</color>
+    <color name="colorGrayLight">#008b89</color>
+    <color name="add_user">#378c9f</color>
+    <color name="color_listUser">#e8e2c0</color>
+</resources>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.pos.acer.pointofsale.FragmentUser">
+
+<!-- TODO: Update blank fragment layout -->
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/RecyUser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="3dp">
+</android.support.v7.widget.RecyclerView>
+<Button
+    android:id="@+id/addUserForm"
+    android:padding="5dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:text="+"
+    android:textSize="13pt"
+    android:layout_gravity="bottom|end"
+    android:background="@drawable/user_button_add_bk"
+    android:textColor="@color/colorWhite" />
+
+</FrameLayout>

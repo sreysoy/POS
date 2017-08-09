@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.pos.acer.pointofsale.LoginActivity"
+android:weightSum="2"
+android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@color/colorWhite"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/login_point_of_sale"
+        android:gravity="center"
+        android:textSize="21pt"
+        android:textColor="@color/colorNackIconGreenLight"
+        android:fontFamily="cursive"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorNackIconBlueDark"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_height="42dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="55dp"
+            android:textColor="@color/colorNackIconGreenLight"
+            android:background="@drawable/edittext_bk"
+            android:hint="@string/username"/>
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:textColor="@color/colorNackIconGreenLight"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_bk"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/login_button_bk"
+            android:text="@string/login_login"
+            android:textColor="@color/colorNackIconGreenLight"
+            android:textSize="9pt" />
+    </LinearLayout>
+</LinearLayout>
